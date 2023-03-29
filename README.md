@@ -5,8 +5,8 @@
 Esse projeto foi desenvolvido devido à necessidade de integração entre um site de e-commerce e o banco Sicoob. Nele foi utilizado a linguagem PHP e a biblioteca curl,
 além dos conceitos de programação orientada a objetos.
 
-O projeto contém duas classes que realizam basicamente todas funcionalidades. Uma delas é a Payload, onde foi tratada a construção do objeto payload independete do
-PSP (Provedor de Serviços de Pagamento). A estrutura desse objeto é padrão e foi contruída de acordo com a documentação do banco central, ela contém as informações 
+O projeto contém duas classes que realizam basicamente todas funcionalidades. Uma delas é a Payload, onde foi tratada a construção do objeto payload independente do
+PSP (Provedor de Serviços de Pagamento). A estrutura desse objeto é padrão e foi construída de acordo com a documentação do banco central, ela contém as informações 
 necessárias para geração do Pix.
 
 A classe Sicoob então é responsável pela integração com esse PSP. Nessa classe estão contidos os métodos que realizam a comunicação com a API de PIX do Sicoob através 
